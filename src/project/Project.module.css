@@ -1,0 +1,40 @@
+.project {
+    height: 100vh;
+    background-color: #cb8f8f;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    background-color: gainsboro;
+    display: flex;
+    align-items: flex-end;
+}
+
+.projectContainer {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smallContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.smallProject {
+    border: 1px solid black;
+    width: 30vw;
+}
+.buttonDiv{
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

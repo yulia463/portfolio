@@ -1,0 +1,18 @@
+.workBlock {
+    height: 50vh;
+    background-color: lightgoldenrodyellow;
+    display :flex;
+
+}
+
+.smallWorkContainer {
+    border: 1px solid black;
+    margin:auto;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+   height: auto;
+    width: auto;
+    overflow: visible;
+}
