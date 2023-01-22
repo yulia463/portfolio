@@ -1,0 +1,43 @@
+.contactContainer {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactBlock {
+    height: 100vh;
+    background-color: lightpink;
+    display: flex;
+}
+
+.title {
+    display: flex;
+}
+
+.btnContacts {
+    margin: 20px;
+}
+
+input {
+    width: 400px;
+    height: 20px;
+
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    height: 300px;
+    justify-content: space-between;
+}

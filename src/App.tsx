@@ -5,17 +5,19 @@ import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Projects from "./project/Projects";
 import RemoteWork from "./remoteWork/RemoteWork";
+import Contact from "./contact/Contact";
 
 function App() {
-  return (
-    <div className="App">
-      <Header/>
-        <Main/>
-        <Skills/>
-      <Projects/>
-        <RemoteWork/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Main/>
+            <Skills/>
+            <Projects/>
+            <RemoteWork/>
+            <Contact/>
+        </div>
+    );
 }
 
 export default App;

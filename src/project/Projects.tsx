@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div className={style.project} >
             <div className={style.projectContainer}>
-                <h2 className={style.title}> Project</h2>
+                <h1 className={style.title}> Project</h1>
                 <div className={style.smallContainer}>
                     <Project
                         title={"название проекта"}
