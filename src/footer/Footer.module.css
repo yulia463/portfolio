@@ -1,0 +1,38 @@
+.footerContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #5cb1a4;
+    height: 28vh;
+}
+.nameBlock {
+    height: auto;
+    display: flex;
+}
+
+.smallBlock{
+    border: 1px solid black;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footerIcon{
+    border: 1px solid black;
+    width: 20px;
+
+}
+.iconAndText{
+    display: flex;
+}
+.icon{
+    border: 1px solid black;
+    width: 13px;
+    height: 13px;
+}
+.text{
+
+}
