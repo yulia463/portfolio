@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #5cb1a4;
-    height: 28vh;
+    min-height: 28vh;
 }
 .nameBlock {
     height: auto;
@@ -13,7 +13,7 @@
 
 .smallBlock{
     border: 1px solid black;
-    width: 400px;
+    width: 80%;
     height: 50px;
     display: flex;
     justify-content: space-between;

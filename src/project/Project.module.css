@@ -1,5 +1,5 @@
 .project {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #cb8f8f;
     border: 1px solid;
     display: flex;
