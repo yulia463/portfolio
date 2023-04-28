@@ -1,14 +1,40 @@
 .mainBlock {
     height: 100vh;
-    background-color: #d8b2e5;
+    background-color: #1f1f20;
 }
 .text {
     width: 300px;
-    background-color: #e8e8e4;
+    background-color: #4b4b46;
 }
 
 .photo {
     width: 300px;
     height: 400px;
-    background-color: lavender;
+    background-color: #3333a6;
+}
+
+.title {
+    display: flex;
+    align-items: flex-end;
+
+    margin: 0 0 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
+}
+.title h3{
+    margin: 0;
+}
+.title ::before {
+    content: "";
+    background: #4e93e6;
+    width: 55px;
+    height: 1px;
+    position: absolute;
 }

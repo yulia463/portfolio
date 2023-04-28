@@ -8,7 +8,7 @@ const RemoteWork = () => {
         <div className={style.workBlock}>
             <div className={styleContainer.container}>
                 <div className={style.smallWorkContainer}>
-                    <h1>looking for remote work options</h1>
+                  <div className={style.title}> <h4>looking for remote work options</h4></div>
                     <Button name={"hire me"}/>
                 </div>
             </div>

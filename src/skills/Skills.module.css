@@ -1,18 +1,46 @@
-.skillsBlock{
+.skillsBlock {
     min-height: 100vh;
-    background-color: lightgoldenrodyellow;
+    background-color: #1f1f20;
 }
-.skillsContainer{
-   flex-direction: column;
+
+.skillsContainer {
+    flex-direction: column;
     justify-content: flex-start;
 
 }
-.skills{
+
+.skills {
     border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.title{
+
+.title h2 {
+    margin: 0;
+}
+
+.title ::before {
+    content: "";
+    background: #4e93e6;
+    width: 55px;
+    height: 1px;
+    position: absolute;
+}
+
+.title {
+    display: flex;
+    align-items: flex-end;
+
+    margin: 0 0 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
 }

@@ -1,6 +1,6 @@
 .workBlock {
     height: 50vh;
-    background-color: lightgoldenrodyellow;
+    background-color: #1f1f20;
     display :flex;
 
 }
@@ -15,4 +15,29 @@
    height: auto;
     width: auto;
     overflow: visible;
+}
+.title {
+    display: flex;
+    align-items: flex-end;
+
+    margin: 0 0 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    position: relative;
+}
+.title h4{
+    margin: 0;
+}
+.title ::before {
+    content: "";
+    background: #4e93e6;
+    width: 55px;
+    height: 1px;
+    position: absolute;
 }

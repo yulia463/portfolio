@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className={style.contactBlock}>
             <div className={style.contactContainer}>
-               <h1 className={style.title}> Contacts</h1>
+             <div className={style.title}><h2 > Contacts</h2></div>
                     <form>
                         <input/>
                         <input/>

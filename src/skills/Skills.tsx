@@ -8,7 +8,9 @@ const Skills = () => {
     return (
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer} `}>
-                <h1 className={style.title}> Skills</h1>
+               <div className={style.title}>
+                   <h2 > Skills</h2>
+               </div>
                 <div className={style.skills}>
                     <Skill
                         title={"JS"}

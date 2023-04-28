@@ -10,7 +10,7 @@ const Main = () => {
                 <span>
                     Hi There
                 </span>
-                <h1>I am <br/> Yulia Slatvitskaya</h1>
+              <div className={style.title}><h3>I am <br/> Yulia Slatvitskaya</h3></div>
                 <p>Frontend Developer.</p>
             </div>
             <div className={style.photo}></div>
