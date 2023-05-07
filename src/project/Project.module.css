@@ -1,7 +1,7 @@
 .project {
     height: 100%;
     background-color: #1f1f20;
-    border: 1px solid ;
+    border: 1px solid;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -38,16 +38,23 @@
     line-height: 1.2;
     letter-spacing: 5px;
     position: relative;
+
 }
-.title h2{
-    margin: 0;
+
+.title h2 {
+    margin: 0px;
 }
+
 .title ::before {
     content: "";
     background: #4e93e6;
     width: 55px;
     height: 1px;
     position: absolute;
+
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 
 .projectContainer {
@@ -60,7 +67,7 @@
     align-items: center;
 }
 
-.smallContainer{
+.smallContainer {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -73,14 +80,16 @@
 
 
 }
-.buttonDiv{
+
+.buttonDiv {
     height: 200px;
     justify-content: center;
     display: flex;
     align-items: center;
 }
-@media screen and (max-width: 1073px){
-    .smallContainer{
+
+@media screen and (max-width: 1073px) {
+    .smallContainer {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
