@@ -1,21 +1,22 @@
 .workBlock {
     height: 50vh;
     background-color: #1f1f20;
-    display :flex;
+    display: flex;
 
 }
 
 .smallWorkContainer {
-    border: 1px solid black;
-    margin:auto;
-    flex-direction:column;
+    background: #252527;
+    margin: auto;
+    flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     display: flex;
-   height: auto;
+    height: auto;
     width: auto;
     overflow: visible;
 }
+
 .title {
     display: flex;
     align-items: flex-end;
@@ -33,9 +34,11 @@
 
 
 }
-.title h4{
+
+.title h4 {
     margin: 0;
 }
+
 .title ::before {
     content: "";
     background: #4e93e6;
@@ -45,7 +48,7 @@
 
     bottom: -30px;
     left: 50%;
-    transform: translate(-50% , 50%);
+    transform: translate(-50%, 50%);
 
 
 }

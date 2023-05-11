@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className={style.footerContainer}>
             <div className={style.nameBlock}>
-                <h2>Yulia Slatvitskaya</h2>
+                <h2 className={style.title}>Yulia Slatvitskaya</h2>
             </div>
             <div className={style.smallBlock}>
                 <div className={style.footerIcon}>1</div>

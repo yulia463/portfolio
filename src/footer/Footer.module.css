@@ -3,7 +3,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #1f1f20;
+    background: #252527;
     min-height: 28vh;
 }
 .nameBlock {
@@ -35,4 +35,7 @@
 }
 .text{
 
+}
+.title{
+   color: white;
 }

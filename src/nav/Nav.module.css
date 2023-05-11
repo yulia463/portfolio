@@ -1,6 +1,12 @@
-.nav{
-border: 1px solid ;
+.nav {
+    border: 1px solid white;
     width: 300px;
     display: flex;
     justify-content: space-between;
+}
+a{
+    color: #4e93e6;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
 }

@@ -4,13 +4,13 @@
 }
 .text {
     width: 300px;
-    background-color: #4b4b46;
+    background: #252527;
 }
 
 .photo {
     width: 300px;
     height: 400px;
-    background-color: #3333a6;
+    background-color: #151556;
 }
 
 .title {
