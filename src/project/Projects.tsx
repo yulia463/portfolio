@@ -1,9 +1,7 @@
 import React from "react";
-import style from './Project.module.css';
+import style from './Project.module.scss';
 import Project from "./Project";
 import avatar from "../assets/image/avatar.png";
-
-
 
 const Projects = () => {
     const social ={

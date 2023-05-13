@@ -1,6 +1,5 @@
 import React from "react";
-import Button from "../button/Button";
-import style from './Project.module.css'
+import style from './Project.module.scss'
 
 type ProjectPropsType = {
     title: string
