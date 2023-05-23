@@ -1,6 +1,8 @@
+@import "../common/styles/sass/variables";
+
 .project {
   height: 100%;
-  background-color: #1f1f20;
+  background-color: $bgColor;
   border: 1px solid;
   display: flex;
   flex-direction: column;
@@ -28,7 +30,7 @@
 .smallProject {
   width: 100%;
   max-width: 400px;
-  background: #252527;
+  background: $bgSecondColor;
 
   .image {
     height: 200px;
@@ -119,7 +121,7 @@
 
 .title ::before {
   content: "";
-  background: #4e93e6;
+  background: $primaryColor;
   width: 55px;
   height: 1px;
   position: absolute;

@@ -1,3 +1,4 @@
+@import "src/common/styles/sass/variables.scss";
 .nav {
     border: 1px solid white;
     width: 300px;
@@ -5,7 +6,7 @@
     justify-content: space-between;
 }
 a{
-    color: #4e93e6;
+    color: $primaryColor;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;

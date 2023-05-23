@@ -1,9 +1,11 @@
+@import "src/common/styles/sass/variables.scss";
+
 .footerContainer{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    background: #252527;
+    background: $bgSecondColor;
     min-height: 28vh;
 }
 .nameBlock {

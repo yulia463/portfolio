@@ -1,10 +1,11 @@
+@import "src/common/styles/sass/variables.scss";
 .mainBlock {
     height: 100vh;
-    background-color: #1f1f20;
+    background-color: $bgColor;
 }
 .text {
     width: 300px;
-    background: #252527;
+    background: $bgSecondColor;
 }
 
 .photo {
@@ -20,7 +21,7 @@
     margin: 0 0 30px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    color: #fff;
+    color: $textColor;
     text-transform: capitalize;
 
     font-size: 36px;
@@ -33,7 +34,7 @@
 }
 .title ::before {
     content: "";
-    background: #4e93e6;
+    background: $primaryColor;
     width: 55px;
     height: 1px;
     position: absolute;
