@@ -1,4 +1,5 @@
 @import "src/common/styles/sass/variables.scss";
+@import "src/common/styles/sass/mixins";
 .mainBlock {
     height: 100vh;
     background-color: $bgColor;
@@ -19,15 +20,13 @@
     align-items: flex-end;
 
     margin: 0 0 30px;
-    font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     color: $textColor;
     text-transform: capitalize;
-
-    font-size: 36px;
-    line-height: 1.2;
     letter-spacing: 5px;
     position: relative;
+
+    @include text($titleFontFamily, 36px, 1.2);
 }
 .title h3{
     margin: 0;
