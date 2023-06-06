@@ -24,19 +24,23 @@
 .footerIcon{
     border: 1px solid black;
     width: 20px;
+    background-color: $textColor;
 
 }
 .iconAndText{
     display: flex;
+
 }
 .icon{
     border: 1px solid black;
     width: 13px;
     height: 13px;
+
 }
 .text{
+    color: $textColor;
 
 }
 .title{
-   color: white;
+   color: $textColor;
 }
