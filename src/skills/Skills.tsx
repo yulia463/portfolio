@@ -38,7 +38,7 @@ const Skills = () => {
                             sx={{color: blue[800]}}
                             fontSize="large"
                         />}
-                        title={"REACT"}
+                        title={"GIT"}
                         description={"repudiandae rerumsapiente tempora!"}/>
                 </div>
             </div>

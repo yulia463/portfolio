@@ -1,19 +1,25 @@
-import React from "react";
+import React, {ReactNode} from "react";
 import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.scss';
+import profilePhoto from "../assets/image/profilePhoto.jpg"
+import avatar from "../assets/image/avatar.png";
+
 
 const Main = () => {
+    const profilePhoto = {
+        backgroundImage: `url(${avatar})`
+    }
     return (
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
-            <div className={style.text}>
+                <div className={style.text}>
                 <span>
                     Hi There
                 </span>
-              <div className={style.title}><h3>I am <br/> Yulia Slatvitskaya</h3></div>
-                <p>Frontend Developer.</p>
-            </div>
-            <div className={style.photo}></div>
+                    <div className={style.title}><h3>I am <br/> Yulia Slatvitskaya</h3></div>
+                    <p>Frontend Developer.</p>
+                </div>
+                <div className={style.photo} style={profilePhoto}></div>
             </div>
         </div>
     )

@@ -2,12 +2,16 @@ import React from "react";
 import style from './Project.module.scss';
 import Project from "./Project";
 import avatar from "../assets/image/avatar.png";
+import profilePhoto from "../assets/image/profilePhoto.jpg"
 
 const Projects = () => {
     const social = {
         backgroundImage: `url(${avatar})`
     }
     const todolist = {
+        backgroundImage: `url(${avatar})`
+    }
+    const profilePhoto = {
         backgroundImage: `url(${avatar})`
     }
     return (
