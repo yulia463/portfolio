@@ -24,7 +24,11 @@ const Skills = () => {
                             fontSize="large"
                         />}
                         title={"JS"}
-                        description={"Lorem ipsum dolor sit amet, consectetur asperiores atque ducimus error"}/>
+
+                        description={" JavaScript is a high-level, interpreted programming language primarily used" +
+                            " for adding interactivity and dynamic behavior to web pages. It is a versatile language that " +
+                            "can be executed on both the client side and the server side (with the help of" +
+                            " Node.js)."}/>
                     <Skill
                         icon={<CssIcon
                             color="action"
@@ -32,14 +36,19 @@ const Skills = () => {
                             fontSize="large"
                         />}
                         title={"CSS"}
-                        description={"excepturi, fuga hic mollitia nesciunt, perspiciatis quaerat quis quo"}/>
+                        description={"CSS  is a style sheet language used to describe the presentation and formatting " +
+                            "of HTML and XML documents. It provides a set of rules that define how elements should be" +
+                            " displayed on a web page, including aspects such as layout, colors, fonts, and spacing. \n"}/>
                     <Skill
                         icon={<GitHubIcon
                             sx={{color: blue[800]}}
                             fontSize="large"
                         />}
                         title={"GIT"}
-                        description={"repudiandae rerumsapiente tempora!"}/>
+                        description={"GIT is a distributed version control system widely used in software development." +
+                            " It allows multiple developers to collaborate on a project by keeping track of changes made " +
+                            "to the source code over time. With GIT, developers can create separate branches to work on" +
+                            " different features or bug fixes independently, and later merge their changes back into the main codebase. "}/>
                 </div>
             </div>
         </div>

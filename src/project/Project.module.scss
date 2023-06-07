@@ -44,11 +44,11 @@
     position: relative;
 
     .viewBtn {
-      background-color: #ccccf5;
+      background-color: $primaryColor;
       padding: 10px 20px;
       position: relative;
       z-index: 1;
-      color: $textColor;
+      color: black;
       /*z-index: 1; для кнопки что бы из-под картинки появились*/
 
     }
