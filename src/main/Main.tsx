@@ -13,11 +13,11 @@ const Main = () => {
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={style.text}>
-                <span>
+                <span className={style.greeting}>
                     Hi There
                 </span>
                     <div className={style.title}><h3>I am <br/> Yulia Slatvitskaya</h3></div>
-                    <p>Frontend Developer.</p>
+                    <p className={style.description}>Frontend Developer.</p>
                 </div>
                 <div className={style.photo} style={profilePhoto}></div>
             </div>

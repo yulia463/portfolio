@@ -7,6 +7,7 @@ import CssIcon from '@mui/icons-material/Css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import {pink, yellow} from "@mui/material/colors";
 import {blue} from "@material-ui/core/colors";
+import {Git} from "../icons/Git";
 
 const Skills = () => {
 
@@ -40,10 +41,7 @@ const Skills = () => {
                             "of HTML and XML documents. It provides a set of rules that define how elements should be" +
                             " displayed on a web page, including aspects such as layout, colors, fonts, and spacing. \n"}/>
                     <Skill
-                        icon={<GitHubIcon
-                            sx={{color: blue[800]}}
-                            fontSize="large"
-                        />}
+                        icon={<Git/>}
                         title={"GIT"}
                         description={"GIT is a distributed version control system widely used in software development." +
                             " It allows multiple developers to collaborate on a project by keeping track of changes made " +

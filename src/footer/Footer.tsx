@@ -15,11 +15,8 @@ const Footer = () => {
 
             </div>
             <div className={style.iconAndText}>
-            <div className={style.icon}>
-
-            </div>
             <div className={style.text}>
-                2023 All rights reserved
+                © 2023 All rights reserved
             </div>
             </div>
         </div>

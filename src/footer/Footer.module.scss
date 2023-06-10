@@ -1,46 +1,44 @@
 @import "src/common/styles/sass/variables.scss";
 
-.footerContainer{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-    background: $bgSecondColor;
-    min-height: 28vh;
+.footerContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background: $bgSecondColor;
+  min-height: 28vh;
 }
+
 .nameBlock {
-    height: auto;
-    display: flex;
+  height: auto;
+  display: flex;
 }
 
-.smallBlock{
-    width: 80%;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.smallBlock {
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
-.footerIcon{
-    border: 1px solid black;
-    width: 20px;
-    background-color: $textColor;
+
+.footerIcon {
+  border: 1px solid black;
+  width: 20px;
+  background-color: $textColor;
+}
+
+.iconAndText {
+  display: flex;
 
 }
-.iconAndText{
-    display: flex;
+
+.text {
+  color: $textColor;
 
 }
-.icon{
-    border: 1px solid black;
-    width: 13px;
-    height: 13px;
 
-}
-.text{
-    color: $textColor;
-
-}
-.title{
-   color: $textColor;
+.title {
+  color: $textColor;
 }
