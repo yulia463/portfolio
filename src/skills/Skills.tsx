@@ -2,12 +2,9 @@ import React from "react";
 import style from './Skills.module.scss';
 import styleContainer from '../common/styles/Container.module.scss';
 import Skill from "./skill/Skill";
-import JavascriptIcon from '@mui/icons-material/Javascript';
-import CssIcon from '@mui/icons-material/Css';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import {pink, yellow} from "@mui/material/colors";
-import {blue} from "@material-ui/core/colors";
 import {Git} from "../icons/Git";
+import {Css} from "../icons/Css";
+import {JavaScript} from "../icons/JavaScript";
 
 const Skills = () => {
 
@@ -19,11 +16,7 @@ const Skills = () => {
                 </div>
                 <div className={style.skills}>
                     <Skill
-                        icon={<JavascriptIcon
-                            color="action"
-                            sx={{color: yellow[600]}}
-                            fontSize="large"
-                        />}
+                        icon={<JavaScript/>}
                         title={"JS"}
 
                         description={" JavaScript is a high-level, interpreted programming language primarily used" +
@@ -31,11 +24,7 @@ const Skills = () => {
                             "can be executed on both the client side and the server side (with the help of" +
                             " Node.js)."}/>
                     <Skill
-                        icon={<CssIcon
-                            color="action"
-                            sx={{color: blue[800]}}
-                            fontSize="large"
-                        />}
+                        icon={<Css/>}
                         title={"CSS"}
                         description={"CSS  is a style sheet language used to describe the presentation and formatting " +
                             "of HTML and XML documents. It provides a set of rules that define how elements should be" +
