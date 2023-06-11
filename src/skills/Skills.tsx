@@ -5,6 +5,9 @@ import Skill from "./skill/Skill";
 import {Git} from "../icons/Git";
 import {Css} from "../icons/Css";
 import {JavaScript} from "../icons/JavaScript";
+import {Figma} from "../icons/Figma";
+import {Html} from "../icons/Html";
+import {TypeScript} from "../icons/TypeScript";
 
 const Skills = () => {
 
@@ -18,7 +21,6 @@ const Skills = () => {
                     <Skill
                         icon={<JavaScript/>}
                         title={"JS"}
-
                         description={" JavaScript is a high-level, interpreted programming language primarily used" +
                             " for adding interactivity and dynamic behavior to web pages. It is a versatile language that " +
                             "can be executed on both the client side and the server side (with the help of" +
@@ -29,6 +31,24 @@ const Skills = () => {
                         description={"CSS  is a style sheet language used to describe the presentation and formatting " +
                             "of HTML and XML documents. It provides a set of rules that define how elements should be" +
                             " displayed on a web page, including aspects such as layout, colors, fonts, and spacing. \n"}/>
+                    <Skill
+                        icon={<Figma/>}
+                        title={"FIGMA"}
+                        description={'Figma is a cloud-based design and prototyping tool that enables teams to collaborate ' +
+                            'in real-time on creating user interfaces, designs, and prototypes for web and mobile applications.' +
+                            ' It is widely used by designers, developers, and product teams.'} />
+                    <Skill
+                        icon={<Html/>}
+                        title={"HTML"}
+                        description={"HTML is the standard markup language used for creating" +
+                            " web pages and applications. It provides the structure and content of a webpage by using a" +
+                            " set of tags and attributes."}/>
+                    <Skill
+                        icon={<TypeScript/>}
+                        title={"TYPESCRIPT"}
+                        description={'TypeScript is a statically typed superset of JavaScript that adds optional static' +
+                            ' type checking to the language. It is developed and maintained by Microsoft. TypeScript' +
+                            ' compiles to plain JavaScript and can run on any JavaScript runtime.'}/>
                     <Skill
                         icon={<Git/>}
                         title={"GIT"}
