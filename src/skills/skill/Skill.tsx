@@ -12,7 +12,7 @@ const Skill = (props: SkillPropsType) => {
     return (
         <div className={style.skill}>
             <div className={style.icon}>
-                {props.icon}
+            {props.icon}
             </div>
             <h3>{props.title}</h3>
             <span className={style.description}>
