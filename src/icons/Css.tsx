@@ -1,6 +1,6 @@
 export const Css = () => {
     return (
-        <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="55px" height="55px" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M71.0864 460.816L30 0H481.474L440.344 460.741L255.464 512L71.0864 460.816Z" fill="#0071BC"/>
             <path fill-rule="evenodd" clip-rule="evenodd"

@@ -1,6 +1,6 @@
 export const JavaScript = () => {
     return (
-        <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="55px" height="55px" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Type=Default" clip-path="url(#clip0_335_250)">
                 <g id="Group">
                     <path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H512V512H0V0Z" fill="#F7DF1E"/>

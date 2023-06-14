@@ -1,6 +1,6 @@
 export const Html = () => {
     return (
-        <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="55px" height="55px" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Type=Default, showSymbol=True, showText=False">
                 <g id="symbol">
                     <path id="Shape" fill-rule="evenodd" clip-rule="evenodd"
