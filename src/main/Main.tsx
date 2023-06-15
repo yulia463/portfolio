@@ -1,4 +1,4 @@
-import React, {ReactNode} from "react";
+import React from "react";
 import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.scss';
 import profilePhoto from "../assets/image/profilePhoto.jpg"
