@@ -27,6 +27,7 @@
 
     letter-spacing: 5px;
     position: relative;
+    padding: 20px 0 0 0 ;
     @include text($titleFontFamily, 36px, 1.2);
 
 }
