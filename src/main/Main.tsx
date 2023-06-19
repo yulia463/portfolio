@@ -19,7 +19,7 @@ const Main = () => {
                     <div className={style.title}><h3>I am <br/> Yulia Slatvitskaya</h3></div>
                     <p className={style.description}>Frontend Developer.</p>
                 </div>
-                <div className={style.photo} style={profilePhoto}></div>
+                <div className={style.photo} style={profilePhoto}/>
             </div>
         </div>
     )
