@@ -6,7 +6,6 @@ import {Telegram} from "../icons/Telegram";
 import {Facebook} from "../icons/Facebook";
 
 
-
 const Footer = () => {
     return (
         <div className={style.footerContainer}>
@@ -18,7 +17,6 @@ const Footer = () => {
                 <div className={style.footerIcon}><LinkedIn/></div>
                 <div className={style.footerIcon}><Telegram/></div>
                 <div className={style.footerIcon}><Facebook/></div>
-
             </div>
             <div className={style.iconAndText}>
                 <div className={style.text}>

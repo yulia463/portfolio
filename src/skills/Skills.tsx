@@ -32,7 +32,7 @@ const Skills = () => {
                         icon={<Figma/>}
                         title={"FIGMA"}
                         description={'Figma is a cloud-based design and prototyping tool that enables teams to collaborate ' +
-                            'in real-time on creating user interfaces, designs, and prototypes for web and mobile applications.'} />
+                            'in real-time on creating user interfaces, designs, and prototypes for web and mobile applications.'}/>
                     <Skill
                         icon={<Html/>}
                         title={"HTML"}
