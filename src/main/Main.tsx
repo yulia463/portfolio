@@ -3,7 +3,6 @@ import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.scss';
 import avatar from "../assets/image/avatar.png";
 
-
 const Main = () => {
     const profilePhoto = {
         backgroundImage: `url(${avatar})`
