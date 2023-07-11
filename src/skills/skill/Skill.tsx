@@ -4,7 +4,7 @@ import style from './Skill.module.scss';
 
 type SkillPropsType = {
     title: string
-    description: any
+    description?: string
     icon: React.ReactNode
 }
 
