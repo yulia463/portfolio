@@ -27,34 +27,23 @@ const Skills = () => {
                     <Skill
                         icon={<Css/>}
                         title={"CSS"}
-                        // description={"CSS  is a style sheet language used to describe the presentation and formatting " +
-                        //     "of HTML and XML documents. "}
-                    />
+                          />
                     <Skill
                         icon={<Figma/>}
                         title={"FIGMA"}
-                    //     description={'Figma is a cloud-based design and prototyping tool that enables teams to collaborate ' +
-                    //         'in real-time on creating user interfaces, designs, and prototypes for web and mobile applications.'}
                      />
                     <Skill
                         icon={<Html/>}
                         title={"HTML"}
-                        // description={"HTML is the standard markup language used for creating" +
-                        //     " web pages and applications."}
-                    />
+                       />
                     <Skill
                         icon={<TypeScript/>}
                         title={"TYPESCRIPT"}
-                        // description={'TypeScript is a statically typed superset of JavaScript that adds optional static' +
-                        //     ' type checking to the language.'}
-                    />
+                         />
                     <Skill
                         icon={<Git/>}
                         title={"GIT"}
-                        // description={"GIT is a distributed version control system widely used in software development." +
-                        //     " It allows multiple developers to collaborate on a project by keeping track of changes made " +
-                        //     "to the source code over time. "}
-                    />
+                       />
                 </div>
             </div>
         </div>
